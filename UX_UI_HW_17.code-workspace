@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "UX_UI_HW_17",
+			"path": "."
+		},
+		{
+			"name": "My_First_Repo",
+			"path": "../My_First_Repo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My_First_Repo"
+	}
+}
