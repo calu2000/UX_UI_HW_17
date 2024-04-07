@@ -1,59 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <title>claudias portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<!-- Navigation Section -->
-  <nav id="navBar">
-<div class="icons">
-      <img src="images/cd.png">
+<!-- Header and Navigation Section -->
+<div class="header">
+  <a class="logo"><img src="images/cd.png" width="148" height="73" alt="cd logo image"/></a>
+<div class="header-right">
+	  <div class="tabContainer">
+    <div class="tabBar">
+	  <div class="tab tab0 active">HOME</div>
+      <div class="tab tab1 ">WORK</div>
+      <div class="tab tab2">ABOUT</div>
     </div>
-    <div id="navigation">
-      <h3><a href="#">HOME</a></h3>
-      <h3><a href="#">CASE STUDIES</a></h3>
-      <h3><a href="#">ABOUT ME</a></h3>
+    <div class="grid" id="tabContent1">
+      <div class="listItem">Case Study 1</div>
+      <div class="listItem">Case Study 2</div>
     </div>
-  </nav>
-<!-- Herolmg Section -->
-  <section id="herolmg">
-    <div id="featuredProduct" class="heroGridArea">
-      <div id="headline">
-        <h2>UX/UI</h2>
-        <h2>Designer<br>
-        </h2>
-<p>I'm a multi-disciplinary designer focused on Visual, UI, and UX design. Currently, I am currently serving as a Communication Specialist at the University of Utah, UT. Outside of work, you'll often find me hiking and immersing myself in nature's beauty. I draw inspiration from nature for fresh ideas, and I firmly believe in the importance of continuous learning for success. I always look forward to new challenges to stay motivated and fully engaged.</p>
-		  <div class="button">LET'S TALK!</div>
-      </div>
+    <div class="grid" id="tabContent2">
+      <div class="listItem">About me</div>
     </div>
-  </section>
-	<!-- Skills Section -->
-  <section id="skills">
-	  <div id="featuredSkills" class="heroGridArea">
-      <div id="headline">
-		  <h2>Skills</h2>
-	<ul class="a">
+  </div>
+	</div>
+</div>
+<!-- Intro Section-->
+<div class="hero">
+  <div>
+    <p><img src="images/cd-mark.png" width="1345" height="730" alt=""/></p>
+  </div>
+  <div>
+<br>
+<br><br><br><br><br><br><br><br><br>
+    <h4>Claudia Diaz</h4>
+    <p>I'm a multi-disciplinary designer focused on Visual, UI, and UX design. Currently, I am currently serving as a Communication Specialist at the University of Utah, UT. Outside of work, you'll often find me hiking and immersing myself in nature's beauty. I draw inspiration from nature for fresh ideas, and I firmly believe in the importance of continuous learning for success. I always look forward to new challenges to stay motivated and fully engaged.</p>
+	  <div class="button">LET'S TALK!</div>
+  </div>
+</div>
+	
+<!-- Case Study Section 1-->	
+<div class="casestudy" style="background-color:#EEEEEE;">
+  <div>
+    <p><img src="images/giftjoy-mobile.png" width="397" height="633" alt="giftjoy"/></p>
+  </div>
+  <div>
+    <h2><br>
+      <br>
+    GIFTJOY</h2>
+    <h4>UX/UI Case Study</h4>
+    <p>Gift giving has never been easier. Start planning your joyful surprises today!</p>
+	<div class="button">VIEW CASE STUDY</div>
+  </div>
+</div>
+<!-- Case Study Section 2-->	
+<div class="casestudy" style="background-color:#000000;">
+  <div>
+  <img src="images/animal-desktop.png" width="784" height="473" alt="ActorS and Animals for Others"/>  </div>
+  <div><br><br><br><br><br><br>
+    <h3>ACTORS AND OTHERS FOR ANIMALS</h3>
+    <h4 style="color:#000000;">UX/UI Case Study</h4>
+    <p style="color: white">Our Users visits the Actors and others for Animals website to find spay/neuter services, learn about petcare, and seek medical support. </p>
+	<div class="button">VIEW CASE STUDY</div>
+  </div>
+</div>	
+	
+<!-- Skill Section -->
+	<img src="images/myskills.png" width="488" height="144" alt=""/>
+<div class="skills" style="background-color:#EEEEEE;">
+  <div></div>
+  <div>
+  <ul class="a">
   <li><strong>Design:</strong> UI/UX Design,  Visual Design, Interaction Design, Product Design, System Design, Web/Mobile</li>
-<li><strong>Tools/Development:</strong> HTML5, CSS3, Figma, Sketch, InVision, Jira, Microsoft Office</li>
+	<li><strong>Tools/Development:</strong> HTML5, CSS3, Figma, Sketch, InVision, Jira, Microsoft Office</li>
   <li><strong>Adobe Suite:</strong> Premiere, InDesign, Illustrator, Photoshop/Lightroom, After Effect, Adobe XD</li>
   <li><strong>UX Methods:</strong> Usability Testing, User Flows, Prototyping, Sketching, Wireframing, Mockups</li>
   <li><strong>Research:</strong> User Research, Information Architecture, Research Synthesis, Data Analysis, Data Visualization</li>
   <li><strong>Graphic Design:</strong> Branding, Marketing, Package Design, Typography, Icon Design</li>
   <li><strong>Language:</strong> Fluent in Spanish</li>
 </ul>
-		  </div>
-		  </div>
-	</section>
+	<div class="button">ABOUT ME</div>
+  </div>
+</div>	
+	
+<!-- Form Section -->
+<div class="form" style="background-color:#EEEEEE;">
+<section>
+          <div class="container" style="background-color:#F10DA3;">
+            <h3>Lets Connect</h3>
+            <form id="contactForm" action="#" method="post">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+       
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+       
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+
+			<div class="button">ABOUT ME</div>
+            </form>
+          </div>
+</section>
+
+</div>
+	
 	
 <!-- Footer Section -->
-	  <div class="footer" style="text-align: center;">
-		  <strong>Contact</strong>
-	    <br>
- <a href="#"> Claudia.diaz@utah.edu </a></div>
-	
-<!-- Copyrights Section -->
-<div class="copyright" style="text-align: center;">Claudia Diaz - &copy;2024</div>
-</body>	
+<div class="footer">
+	<a href="#" style="text-decorationr: bold; color: black;">
+	Claudia.diaz@utah.edu
+	<br>
+  </a>
+	<img src="images/ig.png" alt="instagram" width="50" height="50">
+	<img src="images/in.png" alt="linkin" width="50" height="50">
+  <h6>Claudia Diaz - &copy;2024</h6>
+</div>
+<!-- End Footer Section -->	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 </html>
